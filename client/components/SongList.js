@@ -13,7 +13,7 @@ class SongList extends React.Component {
     });
   }
   render() {
-    if (this.props.data.loading) return <div>Loading...</div>;
+    if (this.props.data.loading) return <div>Loading Song List...</div>;
     return <ul className="collection">{this.renderSongs()}</ul>;
   }
 }
